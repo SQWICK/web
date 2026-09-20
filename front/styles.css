@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("ff.gif") center / cover no-repeat fixed #fff0da;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0da;
+    color: #3b3b3b;
+}
+
+.label {
+    margin: 0;
+    position: relative;
+    border-bottom: 5px solid #F8F4EC;
+    text-align: center;
+    font-family: sans-serif;
+    color: #F8F4EC;
+    font-size: 16px;
+    padding: 10px 160px;
+}
+
+.kot {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.kot2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 40px;
+}
+
+.zalupa {
+    flex: 0 0 auto;
+    margin-left: 100px;
+}
+
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 360px;
+    max-width: 100%;
+    margin-right: 100px;
+}
+
+
+.form {
+    background: #fff;
+    padding: 16px 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form h4 {
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.input-group input,
+.input-group select {
+    flex: 1;
+    padding: 10px 3%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    background: #fff;
+    color: #3b3b3b;
+}
+
+input[placeholder] {
+    background: #fff;
+}
+
+button[type="button"] {
+    cursor: pointer;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #3b3b3b;
+}
+
+
+button {
+    padding: 10px 14px;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    background: #fff;
+    color: #3b3b3b;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+button:hover {
+    background: #3b3b3b;
+    color: #fff0da;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.input-group > button {
+    flex: 1;
+    min-width: 50px;
+}
+
+.input-group button.selected {
+    background: #3b3b3b;
+    color: #fff0da;
+}
+
+.side-panel > button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#checkBtn {
+    background: #fff;
+}
+
+#clearBtn{
+    background: #fff;
+}
+
+
+.table {
+    width: 100%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    color: #F8F4EC;
+    border: 3px solid #3b3b3b;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+
+th, td {
+    padding: 6px 10px;
+}
